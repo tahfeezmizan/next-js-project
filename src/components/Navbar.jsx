@@ -24,11 +24,25 @@ const Navbar = () => {
             title: 'Blogs',
             path: '/blogs'
         },
+        {
+            title: 'Categories',
+            path: '/categories'
+        },
     ]
 
     const handler = () => {
         navigate.push('/login')
     }
+
+    if (pathName.includes('dashboard'))
+        return (
+            <div className='w-4/5 mx-auto'>
+                <div className="bg-yellow-100 py-5">
+                    <h1 className="text-3xl">Dashboard Navigation</h1>
+                </div>
+
+            </div>
+        );
 
     return (
         <div className="flex justify-between items-center w-4/6 px-2 py-4 mx-auto">
