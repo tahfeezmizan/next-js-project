@@ -11,7 +11,6 @@ const page = ({params}) => {
                 <h1 className='text-4xl'>{singleBlogs?.title}</h1>
                 <p className='text-xl'>{singleBlogs?.description}</p>
             </div>
-
         </div>
     );
 };
