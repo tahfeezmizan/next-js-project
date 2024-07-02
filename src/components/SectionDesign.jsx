@@ -10,8 +10,13 @@ const SectionDesign = () => {
                 <Link href={'/about/mission'}>Mission</Link>
             </div>
 
+<<<<<<< HEAD
             <p className="text-2xl">Lorem Porem Golem</p>
 
+=======
+ <p> Adde New From Github on Development Branch </p>
+            
+>>>>>>> 1e3d0f47d8a68d4ec4925fb8df51446071c2e6f3
             <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
                 <div class="max-w-screen-md mb-8 lg:mb-16">
                     <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">About Page</h2>
