@@ -6,11 +6,12 @@ const SectionDesign = () => {
         <section class="bg-white dark:bg-gray-900">
 
             <div className="bg-gray-300 flex gap-5">
-                <Link href={'/about/history'}>History</Link>
+                <Link href={'/about/history'}>About History Page</Link>
                 <Link href={'/about/mission'}>Mission</Link>
             </div>
 
-
+ <p> Adde New From Github on Development Branch </p>
+            
             <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
                 <div class="max-w-screen-md mb-8 lg:mb-16">
                     <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">About Page</h2>
