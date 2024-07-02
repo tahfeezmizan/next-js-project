@@ -6,7 +6,7 @@ const SectionDesign = () => {
         <section class="bg-white dark:bg-gray-900">
 
             <div className="bg-gray-300 flex gap-5">
-                <Link href={'/about/history'}>History</Link>
+                <Link href={'/about/history'}>About History Page</Link>
                 <Link href={'/about/mission'}>Mission</Link>
             </div>
 
